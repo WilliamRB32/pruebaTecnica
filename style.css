@@ -1,7 +1,8 @@
 table, th, tr, td{
-    border: 1px solid black;
-    width: 40%;
-    
+    border: .5px solid black;
+    border-collapse: collapse;
+    width: 35%;
+   
 }
 
 td.title{
@@ -11,11 +12,23 @@ td.title{
 
 td.description{
     justify-content: center;
+    vertical-align: middle;
+    text-align: justify;
+    line-height: 25px;
 }
 
 img{
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
 }
 
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.image{
+    text-align: left;
+    vertical-align: top;
+}
 
