@@ -1,0 +1,21 @@
+table, th, tr, td{
+    border: 1px solid black;
+    width: 40%;
+    
+}
+
+td.title{
+    text-align:left;
+    vertical-align: top;
+}
+
+td.description{
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+
